@@ -35,6 +35,7 @@ body {
 }
 
 .header nav ul li {
+    padding : 0 10px 0 10px;
     display: inline-block;
 }
 
@@ -78,7 +79,7 @@ p {
     clear: both;
     float: right;
     width: 20%;
-    height: 100%;
+    height: auto;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
@@ -134,7 +135,8 @@ p {
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
-    height: 300px;
+    width: 100%;
+    height: auto;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
@@ -143,7 +145,8 @@ p {
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
-    height: 300px;
+    width: 100%;
+    height: auto;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
@@ -152,7 +155,8 @@ p {
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
-    height: 300px;
+    height: auto;
+    width: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
@@ -184,6 +188,16 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+/* Making nav bar more responsive*/
+@media only screen and (max-width: 980px) {
+    .header nav{
+        font-size: 1em;
+    }
+  }
+
+  div {
+    display:flex-box;
+  }
 
 .footer {
     padding: 30px;
